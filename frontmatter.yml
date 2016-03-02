@@ -6,3 +6,4 @@ tags: Apache Cordova, core, inappbrowser, internet, iOS, Android, Windows Phone
 publish: true
 content_filter: true
 apis: cordova.inappbrowser cordova.inappbrowser.open cordova.inappbrowser.addEventListener
+previous_url: /sample-in-app-browser/, /sample-in-app-browser
