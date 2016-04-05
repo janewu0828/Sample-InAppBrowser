@@ -4,32 +4,43 @@
 		<title>Sample</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta charset="utf-8">
-		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		<link href="styles/theme.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 		<script type="text/javascript" charset="utf-8" src="scripts/main.js"></script>
 	</head>
 	<body>
-		<header class="header">
-			<h1>InAppBrowser Sample</h1>rv<a
-                                             
+		<div class="header">
+			<h1>InAppBrowser Sample</h1>
+        </div>
+        <div class="subheader">
+ 			<div class="row">
+ 				<div class="col">
+ 					<button class="button" id="openLocal">Open embedded Image resource</button>
+ 				</div>
+                <div class="col">
+                	<button class="button" id="openExternalInAppBrowser">Open external page with InAppBrowser</button>
+                </div>
+ 			</div>
+            <div class="row">
+ 				<div class="col">
+                    <button class="button" id="openExternalPDF">Open online PDF</button>
+ 				</div>
+                <div class="col">
+					<button class="button" id="openExternalInSystemBrowser">Open in system browser.</button>
+                </div>
+ 			</div>
+ 		</div>
                                              
          
 		<div class="content">
-			<div class="action-area ch80">
-				<button class="button dh" id="openLocal">Open embedded Image resource</button>
-				<button class="button dh" id="openExternalInAppBrowser">Open external page with InAppBrowser</button>
-				<button class="button dh" id="openExternalPDF">Open online PDF</button>
-				<button class="button dh" id="openExternalInSystemBrowser">Open in system browser.</button>
-			</div>
-			<div class="result-area ch20">
-				<div class="results">
-					<div id="log" class="desc" type="text" readonly="readonly">To open an embedded PDF, refer to the <a href="http://github.com/iceniumsamples/sample-file-open-pdf">Open PDF sample app.</a></div>
+			<div class="row -align-bottom">
+				<div class="col u-color-accent -text-center">
+					<div>To open an embedded PDF, refer to the <a href="https://github.com/Icenium/sample-file-open-pdf" target="_blank">Open PDF sample app.</a></div>
 				</div>
-				<div class="separator"></div>
 			</div>
 		</div>
-		<footer class="footer">
-			<div>Cordova API Samples</div>
-		</footer>
+		<div class="footer">
+			<span>Cordova Plugins Samples</span>
+		</div>
 	</body>
 </html>

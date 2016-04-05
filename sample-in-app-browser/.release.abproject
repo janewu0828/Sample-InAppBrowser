@@ -1,8 +1,9 @@
 {
-	"CordovaPluginVariables": {},
-	"CorePlugins": [
-		"org.apache.cordova.device",
-		"org.apache.cordova.inappbrowser",
-		"org.apache.cordova.splashscreen"
-	]
+  "CordovaPluginVariables": {},
+  "CorePlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-inappbrowser",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-whitelist"
+  ]
 }
