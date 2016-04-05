@@ -1,6 +1,6 @@
 InAppBrowser
 =====================
-<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-in-app-browser" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-in-app-browser" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Run in the Platform" title="Run in the Platform" /></a>  
 
 <a id="top"></a>
 * [Overview](#overview)
@@ -12,9 +12,9 @@ InAppBrowser
 
 This sample shows you how to use the InAppBrowser core plugin to open stored images, access web pages and open PDF files.
 
-> *Supported mobile platforms:* iOS, Android, Windows Phone
+> *Supported mobile platforms:* iOS 7.1+, Android 4.4+, Windows Phone 8.1
 >
-> *Developed with:* Windows Phone SDK 8.1, Apache Cordova 3.7.0
+> *Developed with:* Windows Phone SDK 8.1, Apache Cordova 4.0.0
 
 [Back to Top](#top)
 
@@ -22,7 +22,7 @@ This sample shows you how to use the InAppBrowser core plugin to open stored ima
 
 Platform | Home
 ---|---
-All | ![](https://raw.githubusercontent.com/Icenium/sample-in-app-browser/master/screenshots/home.png)
+All | ![](screenshots/home.png)
 
 [Back to Top](#top)
 
