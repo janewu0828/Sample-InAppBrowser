@@ -28,7 +28,7 @@
     "Landscape"
   ],
   "iOSStatusBarStyle": "Default",
-  "AndroidHardwareAcceleration": "true",
+  "AndroidHardwareAcceleration": "True",
   "BundleVersion": "1.0",
   "iOSDeviceFamily": [
     "1",
@@ -37,11 +37,13 @@
   "AndroidVersionCode": "1",
   "FrameworkVersion": "4.0.0",
   "CorePlugins": [
+    "cordova-plugin-contacts",
+    "cordova-plugin-device",
     "cordova-plugin-inappbrowser",
     "cordova-plugin-splashscreen",
     "cordova-plugin-whitelist"
   ],
-  "DisplayName": "InAppBrowser",
+  "DisplayName": "In-app-browser",
   "WP8SupportedResolutions": [
     "ID_RESOLUTION_HD720P",
     "ID_RESOLUTION_WVGA",

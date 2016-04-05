@@ -1,0 +1,10 @@
+{
+  "CordovaPluginVariables": {},
+  "CorePlugins": [
+    "cordova-plugin-contacts",
+    "cordova-plugin-device",
+    "cordova-plugin-inappbrowser",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-whitelist"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "CordovaPluginVariables": {},
+  "CorePlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-inappbrowser",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-whitelist"
+  ]
+}
