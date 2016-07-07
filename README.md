@@ -22,7 +22,7 @@ This sample shows you how to use the InAppBrowser core plugin to open stored ima
 
 Platform | Home
 ---|---
-All | ![](screenshots/home.png)
+All | ![](https://raw.githubusercontent.com/Icenium/Sample-InAppBrowser/master/screenshots/home.png)
 
 [Back to Top](#top)
 
