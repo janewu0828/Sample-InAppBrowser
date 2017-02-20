@@ -30,22 +30,22 @@ Application.prototype = {
 	},
 
 	openLocal: function() {
-		window.open("img/ice.png", "_blank");
+		cordova.InAppBrowser.open("img/ice.png", "_blank");
 	},
  
 	openExternalInAppBrowser:  function () {
-		window.open("http://www.telerik.com", "_blank");
+		cordova.InAppBrowser.open("http://www.telerik.com", "_blank");
 	},
 
 	openExternalPDF:  function () {
 		if (window.navigator.simulator === true) {
 			alert("Not Supported in Simulator.");
 		} else {
-			window.open("http://www.telerik.com/whitepapers/appbuilder/approaching-mobile-understanding-the-three-ways-to-build-mobile-apps", "_blank");
+			cordova.InAppBrowser.open("http://www.telerik.com/whitepapers/appbuilder/approaching-mobile-understanding-the-three-ways-to-build-mobile-apps", "_blank");
 		}
 	},
 
 	openExternalInSystemBrowser:function () {
-		window.open("http://wiki.apache.org/cordova/InAppBrowser", "_system");
+		cordova.InAppBrowser.open("http://wiki.apache.org/cordova/InAppBrowser", "_system");
 	}
 }
