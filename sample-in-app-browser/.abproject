@@ -18,7 +18,7 @@
     "2"
   ],
   "AndroidVersionCode": "1",
-  "FrameworkVersion": "4.0.0",
+  "FrameworkVersion": "6.4.0",
   "CorePlugins": [
     "cordova-plugin-inappbrowser",
     "cordova-plugin-splashscreen",
